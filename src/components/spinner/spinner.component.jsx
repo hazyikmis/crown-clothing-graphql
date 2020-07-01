@@ -9,3 +9,6 @@ const Spinner = () => (
 );
 
 export default Spinner;
+
+//In this app, the method we have used allows us to keep the spinner
+//simple and not having to be a HOC. 
