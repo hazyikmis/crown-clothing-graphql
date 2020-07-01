@@ -2,14 +2,17 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+import { FIREBASE_APIKEY } from "../.env.js";
+
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: FIREBASE_APIKEY,
+  authDomain: "king-clothing-db-421f1.firebaseapp.com",
+  databaseURL: "https://king-clothing-db-421f1.firebaseio.com",
+  projectId: "king-clothing-db-421f1",
+  storageBucket: "king-clothing-db-421f1.appspot.com",
+  messagingSenderId: "128440006845",
+  appId: "1:128440006845:web:485560bdd5f9678e16dfd4",
+  measurementId: "G-F9N3PG8F4B",
 };
 
 firebase.initializeApp(config);
