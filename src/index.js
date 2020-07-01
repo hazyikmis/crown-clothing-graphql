@@ -29,6 +29,7 @@ const client = new ApolloClient({
 
 //the code below fetches data from https://crwn-clothing.com and log consoles
 //just for an example!
+/*
 client.query({
   query: gql`
   {
@@ -44,6 +45,7 @@ client.query({
   }
   `
 }).then(res => console.log(res));
+*/
 
 ReactDOM.render(
   <ApolloProvider client={client}>
