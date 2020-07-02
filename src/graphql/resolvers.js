@@ -1,4 +1,4 @@
-import { gpq } from "apollo-boost";
+import { gql } from "apollo-boost";
 
 //"extend type Mutation" provides us to define ad-hoc mutations
 //means not pre-defined in the graphql schema
