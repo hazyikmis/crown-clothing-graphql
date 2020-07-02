@@ -39,3 +39,5 @@ https://www.apollographql.com/docs/react/caching/cache-configuration/
 
 https://www.apollographql.com/docs/react/data/local-state/#local-resolvers
 
+## Here is the source code of all components converted to as using local/client cache rather than redux!!!
+https://github.com/ZhangMYihua/graphql-practice-complete

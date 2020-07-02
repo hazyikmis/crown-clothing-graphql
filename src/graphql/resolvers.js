@@ -69,6 +69,7 @@ export const resolvers = {
         data: {cartItems: newCartItems}
       });
 
+      return newCartItems;
     }
   },
 };
